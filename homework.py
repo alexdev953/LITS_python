@@ -1,4 +1,3 @@
-
 n = int(input('Введіть число:\n'))
 a = 0
 while a <= n:
@@ -12,16 +11,6 @@ while a <= n:
     a += 1
 
 
-
-"""n = 0
-b = int(input())
-while n <= b:
-    m = 1
-    while m <= n:
-        print(m, end=' ')
-        m += 1
-    print ('')
-    n +=1"""
 
 
 
