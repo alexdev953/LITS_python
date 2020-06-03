@@ -1,8 +1,8 @@
 number = int(input('Enter number\n'))
 a = 1
-sum = 0
+sum_numb = 0
 while a <= number:
-    sum += a
+    sum_numb += a
     print('Число:', a)
-    a +=1
-print('Сума чисел = ',sum)
+    a += 1
+print('Сума чисел = ', sum_numb)
