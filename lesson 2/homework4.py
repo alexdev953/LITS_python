@@ -5,6 +5,5 @@ while a <= number:
     if a % 2 != 0:
         sum += a
         print('Непарне число:',a)
-
     a +=1
 print('Сума непарних чисел = ', sum)
