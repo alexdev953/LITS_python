@@ -1,5 +1,5 @@
-email = input('Enter e-mail: ').lower()
-email_check = input('Enter e-mail for check: ').lower()
+email = input('Enter e-mail: ').replace('\t', '').replace('\b', '').lower()
+email_check = input('Enter e-mail for check: ').replace('\t', '').replace('\b', '').lower()
 if email.find('@') != -1:
     if email == email_check:
         print('OK')
